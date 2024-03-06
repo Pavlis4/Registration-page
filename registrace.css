@@ -1,0 +1,79 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  letter-spacing: 0.5px;
+}
+
+.background {
+  background: linear-gradient(to bottom right, #3498db, #1abc9c);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.registration-screen {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 450px;
+  background: linear-gradient(to bottom, #40E0D0, #87CEEB);
+  border-radius: 10px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.part-1-registration {
+  font-size: 26px;
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 5px;
+}
+
+.initials-border {
+  padding: 8px 15px;
+  border: none;
+  border-bottom: 1px solid;
+  border-radius: 20px;
+  width: 220px;
+  margin-bottom: 15px;
+}
+
+.initials-border::placeholder {
+  letter-spacing: 2px !important;
+  text-align: center;
+}
+
+.initials-border:focus {
+  outline: none;
+}
+
+.button {
+  padding: 8px 45px;
+  border: none;
+  border-bottom: 1px solid;
+  background-color: white;
+  font-weight: bold;
+  font-size: medium;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.button:active {
+  background-color: black;
+  color: white;
+  border-bottom: black;
+  transition: 0.2s;
+}
+
+.part-7-login {
+  margin-top: 10px;
+}
+
+.part-7-login a {
+  color: black;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <link rel="stylesheet" href="registrace.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registrace</title>
+</head>
+<body>
+  <header></header>
+  <main>
+    <div class="background">
+      <form onsubmit="signUp()" action="">
+      <div class="registration-screen">
+        <div class="part-1-registration">
+          <h2>Registrace</h2>
+        </div>
+        <div class="part-2-username">
+          <input class="initials-border" type="text" placeholder="Uživatelské jméno">
+        </div>
+        <div class="part-3-email">
+          <input class="initials-border" type="email" placeholder="Email">
+        </div>
+        <div class="part-4-password">
+          <input class="initials-border" type="password" placeholder="Heslo">
+        </div>
+        <div class="part-5-password-confirm">
+          <input class="initials-border" type="password" placeholder="Potvrdit heslo">
+        </div>
+        <div class="part-6-create-acc">
+          <button class="button" type="submit"> &#10148; Vytvořit účet</button><br>
+        </div>
+        <div class="part-7-login">
+          <a href="login.html">Přihlásit se</a>
+        </div>
+      </div>
+      </form>
+    </div>
+  </main>
+  <footer></footer>
+  <script src="registrace.js"></script>
+</body>
+</html>
